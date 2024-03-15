@@ -1,0 +1,75 @@
+/* src/components/Register.css */
+
+.register-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .role-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  
+  .role-selection button {
+    padding: 10px;
+    border: 1.6px solid #d1d1d1;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .role-selection button :hover {
+    border: 1.6px solid #62CDFA;
+  }
+  .role-selection .selected {
+    font-weight: bold;
+    color: #62CDFA;
+    border: 1.6px solid #62CDFA;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  input {
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    background-color: #F4F4F4;
+    color: #8E8E8E;
+  }
+  
+  button {
+    padding: 10px; 
+    background-color: #62CDFA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-link span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
