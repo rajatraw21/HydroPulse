@@ -1,0 +1,13 @@
+label{
+    display: block;
+
+}
+
+.searchlocation{
+    display: flex;
+    margin: 10px;
+    column-gap: 20px;
+}
+.locationInput{
+    width: 50%;
+}

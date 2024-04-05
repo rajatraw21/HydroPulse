@@ -52,7 +52,7 @@
     color: #8E8E8E;
   }
   
-  button {
+  .createAccbutton {
     padding: 10px; 
     background-color: #62CDFA;
     color: #fff;
